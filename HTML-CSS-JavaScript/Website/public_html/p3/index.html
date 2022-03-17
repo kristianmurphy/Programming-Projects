@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>P3 - StatAnalysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-width-pics.css" rel="stylesheet">
+
+    <!-- Statistical Analysis java code -->
+    <script src="./stat.js"></script>
+
+
+
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Project 3</a>
+            <a class="nav-link" href="../index.html" style="color:white;">Back to Project List</a>
+        </div>
+    </nav>
+
+    <!-- Header - set the background image for the header in the line below -->
+    <header class="py-5 bg-image-full">
+        <img class="img-fluid d-block mx-auto" src="./images/logo.png" alt="">
+    </header>
+
+    <!-- Content section -->
+    <section class="py-5">
+        <div class="container">
+            <h1>Simple Statistical Analysis</h1>
+            <p class="lead">Utilizing JavaScript</p>
+            <p>Enter your desired values into the three boxes and press calculate to find the max, min, mean, median, and range of the three values.</p>
+        </div>
+        <div class="inputs">
+            <input type="number" id="input1" name="input1">
+            <input type="number" id="input2" name="input2">
+            <input type="number" id="input3" name="input3">
+            <br /><button onclick="showstats()">Calculate</button>
+        </div>
+        <div id="outputs" class="outputs">
+            <br /><br />Solving for <span id="ints">...</span>
+            <br /><br />The <strong>maximum</strong> is <span id="maximum">...</span>
+            <br /><br />The <strong>minimum</strong> is <span id="minimum">...</span>
+            <br /><br />The <strong>mean</strong> is <span id="mean">...</span>
+            <br /><br />The <strong>median</strong> is <span id="median">...</span>
+            <br /><br />The <strong>range</strong> is <span id="range">...</span>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Murphyk2017 2020</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
