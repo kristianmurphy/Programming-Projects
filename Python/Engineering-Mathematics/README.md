@@ -1,1 +1,2 @@
-# Writeup and implementation of spring-mass system in python (colab)
+# Spring-mass system 
+Implementation in python (colab) - see spring_mass_model.py
