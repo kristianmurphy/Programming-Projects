@@ -107,5 +107,3 @@ for x in range(3):
   accuracy = (check_accuracy(c1, "c1", thx, thy)) + (check_accuracy(c2, "c2", thx, thy))
   accuracy = accuracy/6 ## calculate accuracy
   print("Accuracy: " + str(accuracy*100) + "%")
-
-"""Thresholds that will succeed with maximum success are x:0 to 2 y:2 to 3 and [2,3] y:0 to 2"""
