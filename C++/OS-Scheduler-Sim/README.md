@@ -1,3 +1,5 @@
+Whole implementation in scheduler.cpp with many comments
+
 # Operating System Scheduler simulation
 This program simulates the behavior of a scheduler in an operating system, and how it utilizes process control blocks and various scheduling techniques to manage the CPU execution.
 
