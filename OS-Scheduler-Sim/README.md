@@ -1,4 +1,6 @@
 # Operating System Scheduler simulation
+This program simulates the behavior of a scheduler in an operating system, and how it utilizes process control blocks and various scheduling techniques to manage the CPU execution.
+
 Different combinations of CPU scheduler algorithms can yield different results, some
 better than others overall, but each CPU scheduler has its own advantages and disadvantages.
 In this comparison of CPU schedulers, three schedulers are taken into consideration: Shortest
