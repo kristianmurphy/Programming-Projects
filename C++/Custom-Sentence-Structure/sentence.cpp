@@ -8,16 +8,9 @@ using namespace std;
 //	S E N T E N C E . c p p                                                                      */
 
 /********************************************************************************************
-
-Name: Kristian Murphy	Z#: Z23442202
-Course: Date Structures and Algorithm Analysis (COP3530) Professor: Dr. Lofton Bullard
-Due Date: 2/22/21	Due Time: 11:59
-Total Points: 25 Assignment 5: Sentence program (Module 6 - Programming asssignment 5)
-
-Description: Tests the implemented functionalities of my single-link structure list
-
-
-
+Kristian Murphy
+2/22/21
+Tests the implemented functionalities of my single-link structure list
 *********************************************************************************************/
 
 /*********************** FUNCTION HEADER ******************************************************************************************************************
